@@ -19,11 +19,12 @@ header{
     color: #3F2374;
 }
 header .img-div{
-    width: 55px;
+    min-width: 55px;
+    border: 1px solid brown;
     display: flex;
 }
 header .right{
-    color: purple;
+    color: #3F2374;
     align-items: center;
     height: 100%;
 }
@@ -33,10 +34,10 @@ header .right > p{
 .b-box{
     background-color: #3F2374;
     color: rgba(196, 190, 190, 0.842);
+    width: 75%;
 }
 .icos > div{
     width: 50px;
-    margin-left: 30px !important;
     cursor: pointer;
 }
 .icos .img-div{
@@ -77,5 +78,8 @@ header .right > p{
 @media screen and (max-width:800px) {
     main{
         width: 100%;
+    }
+    .b-box{
+        width: 95%;
     }
 }
